@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Festive&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+
+body{
+    background-color: #f1f1f1;
+    font-weight: 900;   
+    margin: auto;
+    margin: 0px 50px 0px 50px;
+    padding-top:40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80em
+}
+.block__1{
+    font-size: 30px;
+    color: #ffa500;
+    text-decoration: none;
+}
+.block__2{
+    font-size: 30px;
+    text-decoration: none;
+    color: 	#b22222;
+}
+.block__3{
+    font-size: 30px;
+    color: 	#4169e1;
+    text-decoration: none;
+}
+.block__4{
+    font-size: 30px;
+    color: #00008b;
+    text-decoration: none;
+    font-weight: bold;
+}
+.text{
+    font-size: 20px;
+    padding: 0px 27px;
+}
+.text li{
+    margin-bottom: 10px;
+}
+.table{
+    font-size: 24px;
+    width: 100%;
+    font-family: 'Merriweather'
+}
+.text__3{
+    color: #a9a9a9	;
+    line-height: 30px;
+}
+.image{
+    border-radius: 30px;
+    box-shadow: 8px 10px 20px Black;
+    margin: 0px 30px 0px 0px;
+}
+.prom{
+    padding: 0 px;
+    font-size: 30px;
+    margin: 0px 80px 0px 0px;
+    font-family: 'Oswald';
+    font-weight: 800;
+}
+.div{
+    padding-bottom: 0px 10px;
+    letter-spacing: 3px ;
+    word-spacing: 5px;
+}
+
+.x4{
+    font-size: 25px;
+}
+
+.box-model div{
+    background: black;
+    height: 200px;
+    width: 25%;
+    float: left;
+    margin: 100px 0px 0px 0px;
+    border: 3px solid yellow;
+    box-sizing: border-box;
+}
+.card{
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    border-radius: 25px;
+}
+.bg-yellow{
+    background: #fff9dc ;
+    margin: 30px 0px 30px 0px;
+}
+.bg-yellow h2{
+    font-family: 'Nunito'
+}
+.bg-yellow li{
+    font-family: 'Nunito'
+}
+.bg-green{
+    background: #e5ffe7 ;
+    margin: 30px 0px 30px 0px;
+}
+.bg-red{
+    background: #ffe5e5;
+    margin: 30px 0px 30px 0px;
+}
+.bg-red li{
+    list-style: none;
+}
+.bg-pink{
+    background: pink;
+    margin: 30px 0px 30px 0px;
+    padding: 10px 10px 10px 20px;
+}
+.card h2{
+    margin-bottom: 20px;
+}
+.table td{
+    padding-bottom: 10px;
+}
+.table td:nth-child(2),
+.table td:nth-child(3){
+    color: tomato;
+}
+a{
+    text-decoration: none;
+    color: seagreen ;
+}
+.list-link{
+    text-decoration: none;
+    font-size: 20px;
+}
+.list-link li{
+    margin-bottom: 10px;
+    padding-bottom: 5px; 
+}
+.contact h2{
+    text-align: center;
+    font-size: 25px;
+}
+.contact label {
+    display: block;
+    color: #86898f;
+}
+.form-group input,
+.form-group textarea{
+    border: none;
+    width: 100%;
+    box-sizing: border-box;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: black;
+    padding: 10px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+.row{
+    display: flex;
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+.row .form-group{
+    width: 50%;
+}
+.row .form-group:first-child{
+    margin-right: 30px;
+}
+.btn{
+    color: #ff7f50 ;
+    background: #111;
+    padding: 15px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    font-family: serif;
+    font-family: 'Nunito';
+}
+.btn:hover{
+    opacity: 0.9;
+}
+.font{
+    font-size: 24px;
+}
